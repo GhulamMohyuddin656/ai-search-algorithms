@@ -1,7 +1,7 @@
 import random
 import gui as g
 def f(x):
-    return -(x-3)**2+9
+    return -x**4 + 4*x**2 + x
 
 def steepestAscentHillClimbing(ax,x,step):
     while True:
